@@ -22,3 +22,8 @@ $(document).ready(function() {
         }
     );
 });
+
+//For Accordion
+$('.a-clickable').on('click', function() {
+    $(this).siblings().slideToggle(300);
+});
