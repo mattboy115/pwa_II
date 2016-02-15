@@ -100,7 +100,9 @@ nav a {
 /* Accordion
 ------------------------------*/
 .accordion {
-    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    width: 49.5%;
     background-color: #ffffff;
     padding: 0;
     margin: 0;
@@ -123,4 +125,196 @@ nav a {
     padding: 8px;
     padding-top: 0;
     margin: 0;
+}
+
+/* Modal
+------------------------------*/
+#overlay {
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100vw;
+    height: 100vh;
+    z-index: 5000;
+}
+
+.displaynone {
+    display: none;
+}
+
+#modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    color: white;
+    height: 300px;
+    margin-left: 33%;
+    margin-top: 15%;
+    border: 3px solid white;
+    border-radius: 15px;
+    background-color: #111;
+    box-shadow: 2px 2px 10px #000;
+    z-index: 9999;
+}
+
+hr {
+    border-bottom: 1px solid black;
+}
+
+#close {
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 1px white solid;
+    border-radius: 4px;
+    float: right;
+    margin: 10px;
+    margin-right: 20px;
+    transition: 600ms;
+}
+
+#close:hover {
+    color: #111;
+    background-color: white;
+    transition: 200ms;
+}
+
+form p {
+    margin-top: 0px;
+}
+
+.submit {
+    background-color: #111;
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+    padding: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    transition: 600ms;
+}
+
+.submit:hover {
+    color: #111;
+    background-color: white;
+    transition: 200ms;
+}
+
+/*Sign in Prompt
+-----------------------------------*/
+
+.sign_in {
+    border: #cc8500 3px dashed;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.sign_in p {
+    margin: 0;
+    display: inline-block;
+    font-size: 1.2em;
+    margin-right: 5px;
+}
+
+.sign_in button {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 8px;
+    color: #333;
+}
+
+.sign_in img {
+    opacity: .35;
+    width: 20px;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -16px;
+}
+
+/*Footer
+----------------------------*/
+footer {
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #111;
+    color: #fff;
+    font-size: .8em;
+}
+
+/*Slider
+-----------------------------------------*/
+.slider {
+    display: inline-block;
+    vertical-align: top;
+    width: 49.5%;
+    height: 350px;
+    background-color: grey;
+}
+
+.slide {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    margin-top: -13px;
+}
+
+.slide p {
+    bottom: 0;
+    width: 100;
+    font-size: .8em;
+    color: white;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.image1 {
+    background-image: url(../images/japan.jpg);
+}
+
+.image2 {
+    background-image: url(../images/china.jpg);
+    display: none;
+}
+
+.image3 {
+    background-image: url(../images/korea.jpg);
+    background-position: center;
+    display: none;
+}
+
+.arrow {
+    height: 75px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 25%;
+}
+
+.left_arrow {
+    float: left;
+}
+
+.right_arrow {
+    float: right;
+}
+
+/*Tooltips
+--------------------------*/
+.tooltip {
+    display: none;
+    position: absolute;
+    opacity: .75;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px #666 solid;
+    color: black;
+    padding: 8px;
 }

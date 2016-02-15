@@ -1,0 +1,15 @@
+body {
+    background-image: url('https://secure.static.tumblr.com/9b81275ac6bdba39222f59560f2285ee/hsla4v6/2yinaxrjz/tumblr_static_chicago-night-lights.jpg');
+    background-size: cover;
+    background-position: top;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: auto;
+    margin-top: 50px;
+    width: 1200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 400px;
+}
