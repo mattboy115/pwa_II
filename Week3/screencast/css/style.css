@@ -4,12 +4,33 @@ body {
     background-position: top;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
 }
 
 .wrapper {
     margin: auto;
-    margin-top: 50px;
-    width: 1200px;
+    margin-top: 30px;
+    width: 900px;
     background-color: rgba(255, 255, 255, 0.5);
-    height: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+}
+
+#map {
+    margin: auto;
+    width: 800px;
+    height: 375px;
 }
