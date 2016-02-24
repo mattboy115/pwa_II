@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Example Page</title>
+	<link href="jquery-ui.css" rel="stylesheet">
+	<link rel="stylesheet" href="jquery-ui-1.11.4.custom\js\plugins\jquery-ui-1.11.4.custom\jquery-ui.min.css">
+	<link rel="stylesheet" href="jquery-ui-1.11.4.custom\js\plugins\jquery-ui-1.11.4.custom\jquery-ui.structure.min.css">
+	<link rel="stylesheet" href="jquery-ui-1.11.4.custom\js\plugins\jquery-ui-1.11.4.custom\jquery-ui.theme.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<header>
+		<nav style="overflow: auto;">
+			<ul style="float: left;">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">My Widgets</a></li>
+				<li><a href="#">jQuery UI</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+			<p style="float: right; margin-top: 35px; margin-right: 20px;"><a href="#" id="dialog-link" class="ui-state-default ui-corner-all"><span class="ui-icon ui-icon-newwin"></span>Log In</a></p>
+		</nav>
+		<h1>My Page</h1>
+	</header>
+
+	<div class="wrapper">
+
+		<!-- Accordion -->
+		<div class="accordioncontainer">
+			<h2 class="demoHeaders">Accordion</h2>
+			<div id="accordion">
+				<h3>First</h3>
+				<div>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</div>
+				<h3>Second</h3>
+				<div>Phasellus mattis tincidunt nibh.</div>
+				<h3>Third</h3>
+				<div>Nam dui erat, auctor a, dignissim quis.</div>
+			</div>
+		</div>
+
+		<!-- Button -->
+		<div class="buttoncontainer">
+			<h2 class="demoHeaders">Button</h2>
+			<button id="button">A button element</button>
+			<form style="margin-top: 1em;">
+				<div id="radioset">
+					<input type="radio" id="radio1" name="radio"><label for="radio1">Choice 1</label>
+					<input type="radio" id="radio2" name="radio" checked="checked"><label for="radio2">Choice 2</label>
+					<input type="radio" id="radio3" name="radio"><label for="radio3">Choice 3</label>
+				</div>
+			</form>
+		</div>
+
+		<!-- Datepicker -->
+		<div class="datecontainer">
+			<h2 class="demoHeaders">Datepicker</h2>
+			<input id="datepicker" size="8"></input>
+		</div>
+
+		<!--Drag and Drop-->
+		<div class="dragcontainer">
+			<h2 class="demoHeaders">Drag and Drop</h2>
+			<div id="snaptarget" class="ui-widget-header">
+  <p>I'm a snap target!</p>
+</div>
+
+<br style="clear:both">
+
+	<div id="draggable" class="draggable ui-widget-content">
+	  <p>Default (snap: true), snaps to all other draggable elements</p>
+	</div>
+
+	<div id="draggable2" class="draggable ui-widget-content">
+	  <p>I only snap to the big box</p>
+	</div>
+
+	<div id="draggable3" class="draggable ui-widget-content">
+	  <p>I only snap to the outer edges of the big box</p>
+	</div>
+
+	<div id="draggable4" class="draggable ui-widget-content">
+	  <p>I snap to a 20 x 20 grid</p>
+	</div>
+
+	<div id="draggable5" class="draggable ui-widget-content">
+	  <p>I snap to a 80 x 80 grid</p>
+	</div>
+		</div>
+
+		<!-- ui-dialog -->
+		<div id="dialog" title="Dialog Title">
+			<div id='content'>
+	            <h2 style="margin: 0; margin-left: 15px; margin-top: 15px;">Log In</h2><br>
+	            <p style="margin: 0; margin-left: 15px; margin-top: -10px;">
+	                for member priveleges
+	            </p>
+	            <fieldset style="border: none;">
+	                <form action="index.html" method="post">
+	                    <p class="username" ><label for="username">Username</label><br>
+	                        <input type="text" name="username" placeholder="Username"></p>
+	                        <p class="password" ><label for="password">Password</label><br>
+	                            <input type="text" name="password" placeholder="Password"></p>
+	                        </form>
+	                        <input class="submit" type="submit" name="name" value="Log In">
+	                    </fieldset>
+	                </div>
+	                <hr style="width: 99.1%; ">
+	            </div>
+		</div>
+
+		<!-- Highlight / Error -->
+		<!-- <h2 class="demoHeaders">Highlight / Error</h2>
+		<div class="ui-widget">
+		<div class="ui-state-highlight ui-corner-all" style="margin-top: 20px; padding: 0 .7em;">
+		<p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
+		<strong>Hey!</strong> Sample ui-state-highlight style.</p>
+	</div>
+</div>
+<br>
+<div class="ui-widget">
+<div class="ui-state-error ui-corner-all" style="padding: 0 .7em;">
+<p><span class="ui-icon ui-icon-alert" style="float: left; margin-right: .3em;"></span>
+<strong>Alert:</strong> Sample ui-state-error style.</p>
+</div>
+</div>-->
+</div>
+<footer>&copy; Website by Matt Lee Web and Graphic Works 2016.</footer>
+
+<!-- Script tags -->
+<script src="js/plugins/jquery.js"></script>
+<script src="js/plugins/jquery-ui.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
