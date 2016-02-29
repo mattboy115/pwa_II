@@ -23,9 +23,9 @@ $('.picker').datepicker();
             var taskName = $('input.description').val();
             var dueDate = $('.picker').val();
             var beginLi = '<li style="list-style-type: none; border: 1px solid orange; padding: 6px; margin-bottom: 10px; margin-right: 40px;"><span style="margin-top: -1px;" class="done">&#10004</span>';
-            var taskLi = '<span class="task">' + taskName + '</span>';
-            var dateLi = '<span style="float: right; margin-right: 10%;" class="due-date">' + dueDate + '</span>';
-            var endLi = '<span style="margin-top: -1px; float: right; margin-right: -21.5%;" class="delete">x</span></li>';
+            var taskLi = '<span style="width: 60%;" class="task">' + taskName + '</span>';
+            var dateLi = '<span class="due-date">' + dueDate + '</span>';
+            var endLi = '<span style="margin-top: -1px;" class="delete">x</span></li>';
             $('.task_list').prepend(beginLi + taskLi + dateLi + endLi);
             $('.task_list').hide().slideDown(250).find('li:first')
                     .animate({
